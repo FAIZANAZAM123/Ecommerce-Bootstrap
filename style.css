@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navlogo {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+ul li {
+   margin-left: 20px;
+   margin-top: 10px;
+    
+}
+
+
+.nav-link:hover {
+    color: white;
+    background-color: antiquewhite;
+    
+
+}
+
+#home span {
+    color: coral;
+}
+
+#home {
+    background-image: url("img/back.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 90px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    background-color: black;
+    padding: 13px 30px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.image1 {
+    height: 63.5%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+}
+
+.image3 {
+    height: 63.5%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+}
+
+.image2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+}
+
+.details {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.pagination {
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.img-fluid {
+    height: 70%;
+}
+
+.contactmain {
+    height: 180vh;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/Contactback.jpg");
+}
+
+form {
+    height: 100%;
+    border-radius: 7px;
+    color: black;
+    margin: 0;
+}
+.logos{
+    cursor: pointer;
+}
+
+@media only screen and (min-width:390px)and (max-width:1050px) {
+    .nav-link:hover {
+        color: white;
+        background-color: antiquewhite;
+        width:90px;
+    
+    }
+    #home {
+      
+      background-position:left -32px center;
+      
+      align-items: flex-end;
+     
+     
+    
+    }
+}
+@media only screen and (min-width:300px)and (max-width:389px) {
+    .nav-link:hover {
+        color: white;
+        background-color: antiquewhite;
+        width:90px;
+    
+    }
+   
+}
+
+#changer{
+    max-height: 400px;
+    max-width: 400px;
+}
